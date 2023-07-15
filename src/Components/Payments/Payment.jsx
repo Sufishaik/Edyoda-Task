@@ -3,7 +3,6 @@ import "../Payments/Style.css"
 import Edyoda from "../../assets/EDYODA.svg"
 import Arrow from "../../assets/Icon Chevron Down.png"
 import SearchIcon from "../../assets/Search Icon.svg"
-
 import Book from "../../assets/Icon.svg"
 import Watch from "../../assets/Icon (3).png"
 import TV from "../../assets/Icon.png"

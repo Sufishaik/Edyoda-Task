@@ -47,7 +47,7 @@ function Plans({totalPrice, handlePlanChange, selectedPlan, RadioButton, Clock, 
                         </div>
                     </div>
                     <div className='child'>
-                        <input type="radio" name="" id="" value="6month" checked={selectedPlan === "6month"} onChange={handlePlanChange} />
+                        <input type="checkbox" name="radio-group" id="" value="6month" checked={selectedPlan === "6month"} onChange={handlePlanChange} />
                         <div className='childs'>
                             <p>6 Months Subscription</p>
                             <div>
@@ -59,7 +59,7 @@ function Plans({totalPrice, handlePlanChange, selectedPlan, RadioButton, Clock, 
                         </div>
                     </div>
                     <div className='child'>
-                        <input type="radio" name="" id="" value="3month" checked={selectedPlan === "3month"} onChange={handlePlanChange} />
+                        <input type="checkbox" name="" className='input' id="" value="3month" checked={selectedPlan === "3month"} onChange={handlePlanChange} />
                         <div className='childs'>
                             <p>3 Months Subscription</p>
                             <div>
