@@ -21,7 +21,7 @@ function Plans({totalPrice, handlePlanChange, selectedPlan, RadioButton, Clock, 
                 <div className='plans'>
                     <p className='offer'>Offer expired</p>
                     <div className='child expired'>
-                        <input type="radio" name="" id="" disabled />
+                        <input type="radio" name="" id="" disabled checked />
                         <div className='childs '>
                             <span className='exp'>12 Months Subscription</span>
                             <div >
