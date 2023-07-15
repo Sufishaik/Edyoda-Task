@@ -11,7 +11,7 @@ function Plans({totalPrice, handlePlanChange, selectedPlan, RadioButton, Clock, 
                     </div>
                     <div className='head2'>
                         <strong>2</strong>
-                        <p>Subsscibe</p>
+                        <p>Subscribe</p>
                     </div>
                 </div>
 
@@ -47,7 +47,7 @@ function Plans({totalPrice, handlePlanChange, selectedPlan, RadioButton, Clock, 
                         </div>
                     </div>
                     <div className='child'>
-                        <input type="checkbox" name="radio-group" id="" value="6month" checked={selectedPlan === "6month"} onChange={handlePlanChange} />
+                        <input type="radio" name="radio-group" id="" value="6month" checked={selectedPlan === "6month"} onChange={handlePlanChange} />
                         <div className='childs'>
                             <p>6 Months Subscription</p>
                             <div>
@@ -59,7 +59,7 @@ function Plans({totalPrice, handlePlanChange, selectedPlan, RadioButton, Clock, 
                         </div>
                     </div>
                     <div className='child'>
-                        <input type="checkbox" name="" className='input' id="" value="3month" checked={selectedPlan === "3month"} onChange={handlePlanChange} />
+                        <input type="radio" name="" className='input' id="" value="3month" checked={selectedPlan === "3month"} onChange={handlePlanChange} />
                         <div className='childs'>
                             <p>3 Months Subscription</p>
                             <div>
@@ -72,7 +72,7 @@ function Plans({totalPrice, handlePlanChange, selectedPlan, RadioButton, Clock, 
                     </div>
                     <div className='subs-plans'>
                         <div className='subs-child'>
-                            <p>Subscription</p>
+                            <p>Subscription Fee</p>
                             <span>₹18,500</span>
                         </div>
                         <div className='subs-child1'>

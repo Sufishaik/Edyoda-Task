@@ -187,8 +187,12 @@ input {
     width: 32px;
     height: 32px;
 }
+.child input {
+    width: 32px;
+    height: 32px;
+}
 
-.child input[type="checkbox"] {
+/* .child input[type="checkbox"] {
     appearance: none;
     -webkit-appearance: none;
     height: 28px;
@@ -219,7 +223,7 @@ input[type='checkbox']:checked {
 
 input[type='checkbox']:checked:after {
     display: block;
-}
+} */
 
 
 .childs {
