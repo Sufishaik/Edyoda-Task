@@ -16,7 +16,7 @@ import Plans from '../Plans/Plans'
 import Subscription from '../Subscription/Subscription'
 function Payment() {
     const [selectedPlan, setSelectedPlan] = useState('6months');
-    const [totalPrice, setTotalPrice] = useState(0);
+    const [totalPrice, setTotalPrice] = useState(149);
 
     const handlePlanChange = (event) => {
         setSelectedPlan(event.target.value);

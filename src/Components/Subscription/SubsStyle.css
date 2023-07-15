@@ -94,3 +94,11 @@
     height: 57.627px;
     flex-shrink: 0;
 }
+
+.line {
+    width: 115px;
+    height: 8px;
+    position: absolute;
+    left: 40px;
+    top: 95px;
+}

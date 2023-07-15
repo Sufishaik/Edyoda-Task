@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Subscription/SubsStyle.css";
+import Line from  "../../assets/Rectangle 2714.svg"
 function Subscription({TV, ADS, LAW, Book, Watch}) {
   return (
     <div>
@@ -7,7 +8,8 @@ function Subscription({TV, ADS, LAW, Book, Watch}) {
                 <div className='left-ses1'>
                     <div>
                         <div className='div div1'>Access curated cources worth</div>
-                        <div className='div div2'>₹18,500 at just <span style={{ color: '#0096FF' }}> ₹99</span> per year!</div>
+                        <div className='div div2'>₹ 18,500 at just <span style={{ color: '#0096FF' }}> ₹99</span> per year!</div>
+                        <img src={Line} alt="" className='line' />
                     </div>
                     <div className='left-ses2'>
                         <div>
